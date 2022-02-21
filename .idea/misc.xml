@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Android/projects/MJWalkThrough/MJWalkThrough/src/main/res/drawable/tooltip_bg.xml" value="0.2203125" />
         <entry key="..\:/Android/projects/MJWalkThrough/MJWalkThrough/src/main/res/layout/layout_intro_tooltip.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/projects/MJWalkThrough/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/projects/MJWalkThrough/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
