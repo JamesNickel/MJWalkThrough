@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/IntroTooltipHolder">
+    <TextView
+        android:id="@+id/txt_tooltip_title"
+        style="@style/IntroTooltipTitle" />
+    <TextView
+        android:id="@+id/txt_tooltip_desc"
+        style="@style/IntroTooltipDesc" />
+    <TextView
+        android:id="@+id/btn_tooltip_next"
+        style="@style/IntroTooltipNext" />
+</RelativeLayout>

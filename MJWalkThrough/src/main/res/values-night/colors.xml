@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_origin_solid">#000000</color>
+    <color name="bg_opposite_shader">#88ffffff</color>
+    <color name="text_origin_primary">#dd000000</color>
+    <color name="text_origin_secondary">#89000000</color>
+    <color name="text_opposite_primary">#ffffffff</color>
+    <color name="text_opposite_secondary">#b2ffffff</color>
+    <color name="orange">#f77d10</color>
+</resources>

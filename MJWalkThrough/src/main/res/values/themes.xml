@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MJWalkThrough" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+
+    <style name="IntroTooltipHolder" parent="Theme.MJWalkThrough">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/size_10dp</item>
+        <item name="android:paddingTop">@dimen/size_10dp</item>
+        <item name="android:paddingRight">@dimen/size_20dp</item>
+        <item name="android:paddingLeft">@dimen/size_20dp</item>
+        <item name="android:paddingBottom">@dimen/size_10dp</item>
+        <item name="android:background">@drawable/tooltip_bg</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+    <style name="IntroTooltipText" parent="Theme.MJWalkThrough">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/size_10dp</item>
+        <item name="android:text">Sample Text</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="IntroTooltipTitle" parent="IntroTooltipText">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/text_opposite_primary</item>
+    </style>
+    <style name="IntroTooltipDesc" parent="IntroTooltipText">
+        <item name="android:textSize">@dimen/text_main</item>
+        <item name="android:textColor">@color/text_opposite_secondary</item>
+        <item name="android:layout_below">@id/txt_tooltip_title</item>
+    </style>
+    <style name="IntroTooltipNext" parent="Theme.MJWalkThrough">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_main</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">Continue</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_below">@id/txt_tooltip_desc</item>
+    </style>
+</resources>
